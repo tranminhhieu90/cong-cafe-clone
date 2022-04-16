@@ -1,11 +1,9 @@
 import React from "react";
-const HomeHeader = React.lazy(() => import("components/common/HomeHeader"));
+const HomeHeader = React.lazy(
+  () => import("components/common/header/HomeHeader")
+);
 const Home = () => {
-  return (
-    <div>
-      <HomeHeader />
-    </div>
-  );
+  return <HomeHeader />;
 };
 
 export default Home;

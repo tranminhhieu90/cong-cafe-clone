@@ -5,12 +5,15 @@ yarn add react-router-dom
 3. Add tailwind.
 - nguồn tham khảo: https://tailwindcss.com/docs/guides/create-react-app
 - thêm thư viện: yarn add -D tailwindcss postcss autoprefixer
-- tạo file tailwind.config.js
-- thêm @tailwind diẻctives và file css root
+- tạo file:  tailwind.config.js  : npx tailwindcss init -p npx tailwindcss init -p 
+- thêm @tailwind directives và file css root
+- note: npx tailwindcss init --full
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 - run lại terminate
+- extension: tailwind CSS intelliSense
+
 4. Add antd 
  yarn add antd
  thêm @import '~antd/dist/antd.css'; vào folder css root
