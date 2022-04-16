@@ -1,0 +1,13 @@
+1. Tạo dự án
+npx create-react-app my-app --template typescript.
+2. Tạo base react-router-dom
+yarn add react-router-dom
+3. Add tailwind.
+- nguồn tham khảo: https://tailwindcss.com/docs/guides/create-react-app
+- thêm thư viện: yarn add -D tailwindcss postcss autoprefixer
+- tạo file tailwind.config.js
+- thêm @tailwind diẻctives và file csss root
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+- run lại terminate
